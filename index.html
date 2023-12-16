@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Frontend Bootcamp</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="icon" href="./Images/online-lesson.png">
+       
+</head>
+
+<body>
+
+    <!-- Navbar section -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+        <a class="navbar-brand mx-5 text-danger" href="#">Frontend Bootcamp</a>
+            <button class="navbar-toggler mx-3 my-1" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link p-2 " aria-current="page" href="#learn">What you'll Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2" href="#sec">Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2" href="#instructor">Instructors</a>
+                    </li>
+                </ul>
+            </nav>
+
+        
+            <!-- Main section -->
+
+
+        <section class="bg-dark text-light p-5  ">
+         <div class=" container d-flex p-3">
+                <div class="left">
+                    <h1 class="m-auto">Become a <span class="text-danger">Web Developer</span> </h1>
+                    <p class="mt-4">We focus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first development role</p>
+                    <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Start the enrollment
+            </button>
+  
+  <!-- Modal -->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label text-dark"><strong>Name</strong></label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name here">
+              </div>
+
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label text-dark"><strong>Email address</strong></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label text-dark"><strong>Contact</strong></label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your contact here">
+              </div>
+              
+        </div>
+        <div class="modal-footer">
+           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+             <button type="button" class="btn btn-danger">Save changes</button>
+                 </div>
+               </div>
+              </div>
+            </div>
+          </div>
+                <div class="right d-none d-sm-block">
+                    <img src="./Images/main.svg"  class="img-fluid w-50">
+                </div>
+            </div>
+        </section>
+
+      
+        <!-- News letter section -->
+
+
+        <section class="bg-danger p-5">
+            <div class="container d-flex flex">
+                <div class="left">
+                    <h4>Sign Up For Our Newsletter </h4>
+                </div>
+                <div class="right m-auto">
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <button class="btn btn-dark" id="basic-addon2">Send</button>
+                      </div>
+                      
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Mode of learning section  -->
+
+
+        <section class="p-4 ">
+            <div class="container ">
+                <div class="row  text-center g-4">
+                    <div class="col-md ">
+                        <div class="card text-center" >
+                           <div class="card-body bg-dark text-light">
+                            <img src="./Images/video-conference.png" alt="virtual" style="width: 2rem">
+                            <h5 class="card-title mt-2">Virtual</h5>
+                            <p class="card-text mt-2">Virtual learning curriculum is taught by instructors that lecture online via video or audio.</p>
+                            <a class="btn btn-danger mt-2">Read More</a>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card text-center" >
+                        <div class="card-body bg-secondary text-light">
+                            <img src="./Images/virtual.png" alt="Hybrid" style="width: 2rem">
+                          <h5 class="card-title mt-2">Hybrid</h5>
+                          <p class="card-text mt-2">Hybrid learning is combining offline and online modes of teaching in the most efficient way.</p>
+                          <a  class="btn btn-danger mt-2">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="card text-center" >
+                          <div class="card-body bg-dark text-light">
+                            <img src="./Images/man.png" alt="virtual" style="width: 2rem">
+                          <h5 class="card-title mt-2">In Person</h5>
+                          <p class="card-text mt-2">Learn Web Development in person and in real time with the industry developers and students.</p>
+                          <a class="btn btn-danger mt-2">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Learning Sections -->
+
+        <!-- section1 -->
+
+
+        <section id="learn">
+            <div class="container d-flex p-5 ">
+                <div class="left d-none d-sm-block">
+                   <img src="./Images/HTMLCSSJS.png" alt="html image" class="img-fluid p-5"> 
+                </div>
+                <div class="right">
+                    <h1 class="mt-2">Learn HTML,CSS,JS</h1>
+                    <p class="mt-4"> HTML provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript. CSS is used to control presentation, formatting, and layout. JavaScript is used to control the behavior of different elements.</p>
+                    <p class="mt-1">The goal of this Bootcamp is to deliver in plain English, teach you with the basics of HTML, CSS, and one of the most common programming languages, JavaScript.</p>
+                    <button type="button" class="btn btn-danger">Read More</button>
+                </div>
+            </div>
+        </section>
+
+
+       <!-- section2 -->
+
+
+        <section class="bg-dark text-light">
+            <div class="container d-flex p-5">
+               
+                <div class="right">
+                    <h1 class="mt-2">Learn React</h1>
+                    <p class="mt-4"> React is a JavaScript library developed by Facebook which, among other things, was used to build Instagram.com. Its aim is to allow developers to easily create fast user interfaces for websites and applications alike. The main concept of React. js is virtual DOM.</p>
+                    <p class="mt-1">React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.</p>
+                    <button type="button" class="btn btn-danger">Read More</button>
+                </div>
+                <div class="left d-none d-sm-block ">
+                    <img src="./Images/undraw_react_re_g3ui.svg" alt="react image" class="img-fluid p-5"> 
+                 </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section  -->
+
+        <section id="sec">
+            <div class="container text-center p-5">
+                <div class="FAQ">
+                    <h1>Frequently Asked Questions </h1>
+                </div>
+                <div class="accordion p-3" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button  text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <strong>What do i need to know?</strong>
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-danger">
+                          <strong>There is no prerequisite to start learning web development.Web Development includes: Front-End Development and Back-End Development.In Front-End Development you will learn HTML, CSS, JS, Various JS Frameworks.For Back-End You will learn SQL, node.js, etc.So basically you dont need any prerequisite.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          <strong>How do i Enroll in the course?</strong>
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-danger">
+                          <strong>Click on the start Enrollment button and fill the required details to get enrolled in the course</strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <strong>What are the Job opportunities?</strong>
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-danger">
+                         <strong>Writing well designed, testable, efficient code by using best software development practices. Creating website layout/user interfaces by using standard HTML/CSS practices. Integrating data from various back-end services and databases will get you a job in well-known organization</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+
+        <!-- Instructors -->
+
+
+        <section class="bg-danger" id="instructor">
+            <div class="container">
+                <h2 class="text-center text-light">Our Instructors</h2>
+                <p class="lead text-center text-light">Our Instructors all have 5+ years working as a web developer in the industry</p>
+                <div class="container  d-flex flex">
+                <div class="card text-bg-dark mb-3 m-2" >
+                    <div class="card-header text-center"><img src="./Images/man.png" alt="virtual" style="width: 2rem"></div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center">John Doe</h5>
+                      <p class="card-text">John Doe is a software developer at Microsoft and has an overall experience of 8+ years in HTML,CSS and JS. </p>
+                    </div>
+                  </div>
+                  <div class="card text-bg-dark mb-3 m-2" >
+                    <div class="card-header text-center"><img src="./Images/man.png" alt="virtual" style="width: 2rem"></div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Steve Smith</h5>
+                      <p class="card-text">Steve Smith is a software Engineer at Instagram and has an overall experience of 7+ years in React</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <!-- Contact and map -->
+
+        <section class="text-center bg-light p-5">
+            <div class="container">
+                <div class="row ">
+                    <div class="col">
+                        <h2>Contact Info</h2>
+                        <ul class="list-group list-group-flush mt-2 text-start">
+                            <li class="list-group-item"><strong>Main Location:</strong><span class="text-secondary"> 84 Main 2nd st Chennai TN</span></li>
+                            <li class="list-group-item"><strong>Enrollment Phone:</strong><span class="text-secondary">(888) 888-888</span></li>
+                            <li class="list-group-item"><strong>Enrollment Email:</strong><span class="text-secondary"> bootcamptestu@gmail.com</span></li>
+                            <li class="list-group-item"><strong>Fax:</strong><span class="text-secondary"> 123-123-4567</span></li>
+                            <li class="list-group-item"><strong>Upcoming Locations:</strong><span class="text-secondary"> Bangalore and Mumbai</span></li>
+                          </ul>
+                    </div>
+                    <div class="col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2911.1615763891405!2d80.20955700293091!3d13.103332936875782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52644043e97ba3%3A0x13dbd63bcc678b82!2sRajiv%20Gandhi%20Nagar%2C%20Konnur%2C%20Chennai%2C%20Tamil%20Nadu%20600049!5e0!3m2!1sen!2sin!4v1665838396328!5m2!1sen!2sin" width="240" height="240" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                  </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+
+      <footer class="bg-dark text-center text-light p-4">
+        <div class="container ">
+        <p class="lead">Copyright &copy; 2023 Frontend Bootcamp </p>
+        </div>
+      </footer>
+
+
+<!-- Script Tags -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
