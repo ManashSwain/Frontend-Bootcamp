@@ -19,8 +19,6 @@ Getting Started
 
 To get started with the project, simply clone this repository to your local machine:
 
-bash
-
 git clone https://github.com/ManashSwain/Frontend-Bootcamp.git
 
 Once you have the files locally, you can open the index.html file in your preferred web browser to access the Frontend Bootcamp Website.
@@ -31,6 +29,7 @@ Usage
     Registration: Follow the instructions provided to register for the bootcamp, including filling out the registration form and submitting necessary documents.
     FAQs: Review the frequently asked questions to find answers to common queries about the bootcamp.
     Responsive Design: Test the website's responsiveness by accessing it on different devices or resizing your browser window.
+
 
 Contributing
 
